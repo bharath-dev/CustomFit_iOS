@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CustomFit_iOS"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "CUSTOMFIT_SUMMARY_GOES_HERE"
   spec.platform     = :ios, "10.0"
   spec.swift_version = '5.0'
