@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E2398E323450B430024F3F5 /* CFConfiguredEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398C223450B430024F3F5 /* CFConfiguredEvent.swift */; };
+		8E2398E423450B430024F3F5 /* CFExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398C323450B430024F3F5 /* CFExperience.swift */; };
+		8E2398E523450B430024F3F5 /* CFPopUpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398C423450B430024F3F5 /* CFPopUpHandler.swift */; };
+		8E2398E623450B430024F3F5 /* CustomFit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2398C523450B430024F3F5 /* CustomFit.h */; };
+		8E2398E723450B430024F3F5 /* CFUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398C623450B430024F3F5 /* CFUtil.swift */; };
+		8E2398E823450B430024F3F5 /* CFMessagingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398C723450B430024F3F5 /* CFMessagingService.swift */; };
+		8E2398E923450B430024F3F5 /* CFClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398C823450B430024F3F5 /* CFClient.swift */; };
+		8E2398EA23450B430024F3F5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398C923450B430024F3F5 /* APIClient.swift */; };
+		8E2398EB23450B430024F3F5 /* CustomFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398CA23450B430024F3F5 /* CustomFit.swift */; };
+		8E2398EC23450B430024F3F5 /* CFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398CB23450B430024F3F5 /* CFViewController.swift */; };
+		8E2398ED23450B430024F3F5 /* CFEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398CC23450B430024F3F5 /* CFEventListView.swift */; };
+		8E2398EE23450B430024F3F5 /* CFRegisterEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398CD23450B430024F3F5 /* CFRegisterEvents.swift */; };
+		8E2398EF23450B430024F3F5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398CE23450B430024F3F5 /* Extensions.swift */; };
+		8E2398F023450B430024F3F5 /* CFLifeCycleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398CF23450B430024F3F5 /* CFLifeCycleDetector.swift */; };
+		8E2398F123450B430024F3F5 /* CFSharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D023450B430024F3F5 /* CFSharedPreferences.swift */; };
+		8E2398F223450B430024F3F5 /* CFExperienceBehaviourResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D123450B430024F3F5 /* CFExperienceBehaviourResponse.swift */; };
+		8E2398F323450B430024F3F5 /* CFSummaryExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D223450B430024F3F5 /* CFSummaryExporter.swift */; };
+		8E2398F423450B430024F3F5 /* CFEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D323450B430024F3F5 /* CFEvent.swift */; };
+		8E2398F523450B430024F3F5 /* CFGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D423450B430024F3F5 /* CFGender.swift */; };
+		8E2398F623450B430024F3F5 /* CFSDKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D523450B430024F3F5 /* CFSDKConfig.swift */; };
+		8E2398F723450B430024F3F5 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D723450B430024F3F5 /* Queue.swift */; };
+		8E2398F823450B430024F3F5 /* RetryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D823450B430024F3F5 /* RetryHandler.swift */; };
+		8E2398F923450B430024F3F5 /* CFVariationDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398D923450B430024F3F5 /* CFVariationDataType.swift */; };
+		8E2398FA23450B430024F3F5 /* CFTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398DA23450B430024F3F5 /* CFTracker.swift */; };
+		8E2398FB23450B430024F3F5 /* CFConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398DB23450B430024F3F5 /* CFConfig.swift */; };
+		8E2398FC23450B430024F3F5 /* CFGetUserConfigsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398DC23450B430024F3F5 /* CFGetUserConfigsResponse.swift */; };
+		8E2398FD23450B430024F3F5 /* CFCreateUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398DD23450B430024F3F5 /* CFCreateUserRequest.swift */; };
+		8E2398FE23450B430024F3F5 /* CFGeoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398DE23450B430024F3F5 /* CFGeoType.swift */; };
+		8E2398FF23450B430024F3F5 /* CFUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398DF23450B430024F3F5 /* CFUser.swift */; };
+		8E23990023450B430024F3F5 /* CFConfigRequestSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398E023450B430024F3F5 /* CFConfigRequestSummary.swift */; };
+		8E23990123450B430024F3F5 /* CFEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2398E123450B430024F3F5 /* CFEventType.swift */; };
+		8E23990223450B430024F3F5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E2398E223450B430024F3F5 /* Info.plist */; };
+		8E23990823450BAC0024F3F5 /* Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E23990423450BAC0024F3F5 /* Initialization.swift */; };
+		8E23990923450BAC0024F3F5 /* Querying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E23990523450BAC0024F3F5 /* Querying.swift */; };
+		8E23990A23450BAC0024F3F5 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E23990623450BAC0024F3F5 /* JSON.swift */; };
+		8E23990B23450BAC0024F3F5 /* Merging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E23990723450BAC0024F3F5 /* Merging.swift */; };
 		8EDC45052343E909008EF6BC /* CustomFit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC44FB2343E909008EF6BC /* CustomFit_iOS.framework */; };
 		8EDC450A2343E909008EF6BC /* CustomFit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDC45092343E909008EF6BC /* CustomFit_iOSTests.swift */; };
 		8EDC450C2343E909008EF6BC /* CustomFit_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EDC44FE2343E909008EF6BC /* CustomFit_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +65,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E2398C223450B430024F3F5 /* CFConfiguredEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFConfiguredEvent.swift; sourceTree = "<group>"; };
+		8E2398C323450B430024F3F5 /* CFExperience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFExperience.swift; sourceTree = "<group>"; };
+		8E2398C423450B430024F3F5 /* CFPopUpHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFPopUpHandler.swift; sourceTree = "<group>"; };
+		8E2398C523450B430024F3F5 /* CustomFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFit.h; sourceTree = "<group>"; };
+		8E2398C623450B430024F3F5 /* CFUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFUtil.swift; sourceTree = "<group>"; };
+		8E2398C723450B430024F3F5 /* CFMessagingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFMessagingService.swift; sourceTree = "<group>"; };
+		8E2398C823450B430024F3F5 /* CFClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFClient.swift; sourceTree = "<group>"; };
+		8E2398C923450B430024F3F5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8E2398CA23450B430024F3F5 /* CustomFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFit.swift; sourceTree = "<group>"; };
+		8E2398CB23450B430024F3F5 /* CFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFViewController.swift; sourceTree = "<group>"; };
+		8E2398CC23450B430024F3F5 /* CFEventListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFEventListView.swift; sourceTree = "<group>"; };
+		8E2398CD23450B430024F3F5 /* CFRegisterEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFRegisterEvents.swift; sourceTree = "<group>"; };
+		8E2398CE23450B430024F3F5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E2398CF23450B430024F3F5 /* CFLifeCycleDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFLifeCycleDetector.swift; sourceTree = "<group>"; };
+		8E2398D023450B430024F3F5 /* CFSharedPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFSharedPreferences.swift; sourceTree = "<group>"; };
+		8E2398D123450B430024F3F5 /* CFExperienceBehaviourResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFExperienceBehaviourResponse.swift; sourceTree = "<group>"; };
+		8E2398D223450B430024F3F5 /* CFSummaryExporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFSummaryExporter.swift; sourceTree = "<group>"; };
+		8E2398D323450B430024F3F5 /* CFEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFEvent.swift; sourceTree = "<group>"; };
+		8E2398D423450B430024F3F5 /* CFGender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFGender.swift; sourceTree = "<group>"; };
+		8E2398D523450B430024F3F5 /* CFSDKConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFSDKConfig.swift; sourceTree = "<group>"; };
+		8E2398D723450B430024F3F5 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		8E2398D823450B430024F3F5 /* RetryHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryHandler.swift; sourceTree = "<group>"; };
+		8E2398D923450B430024F3F5 /* CFVariationDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFVariationDataType.swift; sourceTree = "<group>"; };
+		8E2398DA23450B430024F3F5 /* CFTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFTracker.swift; sourceTree = "<group>"; };
+		8E2398DB23450B430024F3F5 /* CFConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFConfig.swift; sourceTree = "<group>"; };
+		8E2398DC23450B430024F3F5 /* CFGetUserConfigsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFGetUserConfigsResponse.swift; sourceTree = "<group>"; };
+		8E2398DD23450B430024F3F5 /* CFCreateUserRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFCreateUserRequest.swift; sourceTree = "<group>"; };
+		8E2398DE23450B430024F3F5 /* CFGeoType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFGeoType.swift; sourceTree = "<group>"; };
+		8E2398DF23450B430024F3F5 /* CFUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFUser.swift; sourceTree = "<group>"; };
+		8E2398E023450B430024F3F5 /* CFConfigRequestSummary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFConfigRequestSummary.swift; sourceTree = "<group>"; };
+		8E2398E123450B430024F3F5 /* CFEventType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFEventType.swift; sourceTree = "<group>"; };
+		8E2398E223450B430024F3F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E23990423450BAC0024F3F5 /* Initialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initialization.swift; sourceTree = "<group>"; };
+		8E23990523450BAC0024F3F5 /* Querying.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Querying.swift; sourceTree = "<group>"; };
+		8E23990623450BAC0024F3F5 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		8E23990723450BAC0024F3F5 /* Merging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Merging.swift; sourceTree = "<group>"; };
 		8EDC44FB2343E909008EF6BC /* CustomFit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomFit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDC44FE2343E909008EF6BC /* CustomFit_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomFit_iOS.h; sourceTree = "<group>"; };
 		8EDC44FF2343E909008EF6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +143,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E2398C123450B430024F3F5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8E2398C223450B430024F3F5 /* CFConfiguredEvent.swift */,
+				8E2398C323450B430024F3F5 /* CFExperience.swift */,
+				8E2398C423450B430024F3F5 /* CFPopUpHandler.swift */,
+				8E2398C523450B430024F3F5 /* CustomFit.h */,
+				8E2398C623450B430024F3F5 /* CFUtil.swift */,
+				8E2398C723450B430024F3F5 /* CFMessagingService.swift */,
+				8E2398C823450B430024F3F5 /* CFClient.swift */,
+				8E2398C923450B430024F3F5 /* APIClient.swift */,
+				8E2398CA23450B430024F3F5 /* CustomFit.swift */,
+				8E2398CB23450B430024F3F5 /* CFViewController.swift */,
+				8E2398CC23450B430024F3F5 /* CFEventListView.swift */,
+				8E2398CD23450B430024F3F5 /* CFRegisterEvents.swift */,
+				8E2398CE23450B430024F3F5 /* Extensions.swift */,
+				8E2398CF23450B430024F3F5 /* CFLifeCycleDetector.swift */,
+				8E2398D023450B430024F3F5 /* CFSharedPreferences.swift */,
+				8E2398D123450B430024F3F5 /* CFExperienceBehaviourResponse.swift */,
+				8E2398D223450B430024F3F5 /* CFSummaryExporter.swift */,
+				8E2398D323450B430024F3F5 /* CFEvent.swift */,
+				8E2398D423450B430024F3F5 /* CFGender.swift */,
+				8E2398D523450B430024F3F5 /* CFSDKConfig.swift */,
+				8E2398D623450B430024F3F5 /* Queue */,
+				8E2398D823450B430024F3F5 /* RetryHandler.swift */,
+				8E2398D923450B430024F3F5 /* CFVariationDataType.swift */,
+				8E2398DA23450B430024F3F5 /* CFTracker.swift */,
+				8E2398DB23450B430024F3F5 /* CFConfig.swift */,
+				8E2398DC23450B430024F3F5 /* CFGetUserConfigsResponse.swift */,
+				8E2398DD23450B430024F3F5 /* CFCreateUserRequest.swift */,
+				8E2398DE23450B430024F3F5 /* CFGeoType.swift */,
+				8E2398DF23450B430024F3F5 /* CFUser.swift */,
+				8E2398E023450B430024F3F5 /* CFConfigRequestSummary.swift */,
+				8E2398E123450B430024F3F5 /* CFEventType.swift */,
+				8E2398E223450B430024F3F5 /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8E2398D623450B430024F3F5 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				8E2398D723450B430024F3F5 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		8E23990323450BAC0024F3F5 /* GenericJSON */ = {
+			isa = PBXGroup;
+			children = (
+				8E23990423450BAC0024F3F5 /* Initialization.swift */,
+				8E23990523450BAC0024F3F5 /* Querying.swift */,
+				8E23990623450BAC0024F3F5 /* JSON.swift */,
+				8E23990723450BAC0024F3F5 /* Merging.swift */,
+			);
+			path = GenericJSON;
+			sourceTree = "<group>";
+		};
 		8EDC44F12343E909008EF6BC = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +224,8 @@
 		8EDC44FD2343E909008EF6BC /* CustomFit_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				8E23990323450BAC0024F3F5 /* GenericJSON */,
+				8E2398C123450B430024F3F5 /* Sources */,
 				8EDC44FE2343E909008EF6BC /* CustomFit_iOS.h */,
 				8EDC44FF2343E909008EF6BC /* Info.plist */,
 				8EDC452B2343F0F2008EF6BC /* SwiftyLib.swift */,
@@ -131,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDC450C2343E909008EF6BC /* CustomFit_iOS.h in Headers */,
+				8E2398E623450B430024F3F5 /* CustomFit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E23990223450B430024F3F5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +399,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDC452C2343F0F2008EF6BC /* SwiftyLib.swift in Sources */,
+				8E23990023450B430024F3F5 /* CFConfigRequestSummary.swift in Sources */,
+				8E23990123450B430024F3F5 /* CFEventType.swift in Sources */,
+				8E2398F723450B430024F3F5 /* Queue.swift in Sources */,
+				8E2398FF23450B430024F3F5 /* CFUser.swift in Sources */,
+				8E23990B23450BAC0024F3F5 /* Merging.swift in Sources */,
+				8E2398EC23450B430024F3F5 /* CFViewController.swift in Sources */,
+				8E23990923450BAC0024F3F5 /* Querying.swift in Sources */,
+				8E2398F123450B430024F3F5 /* CFSharedPreferences.swift in Sources */,
+				8E2398E323450B430024F3F5 /* CFConfiguredEvent.swift in Sources */,
+				8E2398F523450B430024F3F5 /* CFGender.swift in Sources */,
+				8E2398F623450B430024F3F5 /* CFSDKConfig.swift in Sources */,
+				8E2398FA23450B430024F3F5 /* CFTracker.swift in Sources */,
+				8E2398F923450B430024F3F5 /* CFVariationDataType.swift in Sources */,
+				8E2398FC23450B430024F3F5 /* CFGetUserConfigsResponse.swift in Sources */,
+				8E2398F823450B430024F3F5 /* RetryHandler.swift in Sources */,
+				8E2398F023450B430024F3F5 /* CFLifeCycleDetector.swift in Sources */,
+				8E2398FE23450B430024F3F5 /* CFGeoType.swift in Sources */,
+				8E2398E923450B430024F3F5 /* CFClient.swift in Sources */,
+				8E2398EA23450B430024F3F5 /* APIClient.swift in Sources */,
+				8E2398E523450B430024F3F5 /* CFPopUpHandler.swift in Sources */,
+				8E2398E423450B430024F3F5 /* CFExperience.swift in Sources */,
+				8E2398E723450B430024F3F5 /* CFUtil.swift in Sources */,
+				8E2398EF23450B430024F3F5 /* Extensions.swift in Sources */,
+				8E2398F223450B430024F3F5 /* CFExperienceBehaviourResponse.swift in Sources */,
+				8E23990823450BAC0024F3F5 /* Initialization.swift in Sources */,
+				8E2398EE23450B430024F3F5 /* CFRegisterEvents.swift in Sources */,
+				8E2398E823450B430024F3F5 /* CFMessagingService.swift in Sources */,
+				8E2398ED23450B430024F3F5 /* CFEventListView.swift in Sources */,
+				8E2398FD23450B430024F3F5 /* CFCreateUserRequest.swift in Sources */,
+				8E2398F423450B430024F3F5 /* CFEvent.swift in Sources */,
+				8E2398EB23450B430024F3F5 /* CustomFit.swift in Sources */,
+				8E23990A23450BAC0024F3F5 /* JSON.swift in Sources */,
+				8E2398FB23450B430024F3F5 /* CFConfig.swift in Sources */,
+				8E2398F323450B430024F3F5 /* CFSummaryExporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
