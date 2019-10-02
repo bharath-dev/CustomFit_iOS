@@ -137,5 +137,10 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "Alamofire"
   spec.dependency "FirebaseMessaging"
+  spec.dependency "Firebase"
+  spec.dependency "Firebase/Messaging"
+  spec.dependency "Firebase/Auth"
+  spec.dependency "Firebase/Firestore"
+  spec.dependency "Alamofire"
 
 end
