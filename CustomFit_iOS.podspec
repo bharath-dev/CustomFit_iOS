@@ -143,5 +143,6 @@ Pod::Spec.new do |spec|
   spec.dependency "Firebase/Auth"
   spec.dependency "Firebase/Firestore"
   spec.dependency "Alamofire"
+  spec.dependency "SwiftyJSON"
 
 end
