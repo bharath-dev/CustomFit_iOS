@@ -69,7 +69,7 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   spec.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
-  spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "10.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
