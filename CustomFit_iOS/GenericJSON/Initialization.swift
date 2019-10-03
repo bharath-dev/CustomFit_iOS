@@ -65,10 +65,6 @@ extension JSON: ExpressibleByArrayLiteral {
     public init(arrayLiteral elements: JSON...) {
         self = .array(elements)
     }
-    
-    public init(array elements: [JSON]) {
-        self = .array(elements)
-    }
 }
 
 extension JSON: ExpressibleByDictionaryLiteral {
